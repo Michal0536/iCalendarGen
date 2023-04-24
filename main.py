@@ -7,3 +7,5 @@ def main_f():
     else:
         print('Wybierz poprawnie')
         main_f()
+ 
+ 

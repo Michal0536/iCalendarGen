@@ -21,4 +21,5 @@ class ListingStrategy():
             data_end = str(key).split('.')[-1] + str(key).split('.')[1] + str(key).split('.')[0]+"T"+str(int(str(value[0]).split(':')[0])+1)+str(value[0]).split(':')[1]+"Z"
             nazwa_wydarzenia= value[1]
             print(f"BEGIN:VEVENT\nDTSTART:{data_start}\nDTEND:{data_end}\nSUMMARY:{nazwa_wydarzenia}\nEND:VEVENT")
-        print("END:VCALENDAR")
+        print("END:VCALENDAR") 
+        
